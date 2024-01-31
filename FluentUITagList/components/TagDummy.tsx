@@ -1,6 +1,7 @@
 import { Badge } from "@fluentui/react-components"
 import { useStyles } from "../styles/Styles"
 import { ITagListDummyProps } from "./TagListDummy"
+import * as React from 'react';
 
 export interface iTagDummyProps extends ITagListDummyProps{ 
   id: string;

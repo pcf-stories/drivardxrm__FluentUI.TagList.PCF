@@ -3,6 +3,7 @@ import { usePcfContext } from "../services/PcfContext"
 import { iTagInfo } from "../services/PcfContextService"
 import { useStyles } from "../styles/Styles"
 import TagImage from "./TagImage"
+import * as React from 'react';
 
 const Tag = ({id,name}:iTagInfo, key:string): JSX.Element => {
 

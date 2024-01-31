@@ -3,6 +3,7 @@ import { QueryCache, QueryClient, QueryClientProvider } from '@tanstack/react-qu
 import TagList from './components/TagList';
 import { PcfContextProvider } from './services/PcfContext';
 import { IPcfContextServiceProps, PcfContextService } from './services/PcfContextService';
+import * as React from 'react';
 
 
 

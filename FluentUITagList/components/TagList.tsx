@@ -2,7 +2,7 @@ import { usePcfContext } from '../services/PcfContext';
 import { useStyles } from '../styles/Styles';
 import Tag from './Tag';
 import TagLink from './TagLink';
-
+import * as React from 'react';
 
 const TagList = (): JSX.Element => {
 

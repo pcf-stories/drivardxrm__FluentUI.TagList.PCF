@@ -2,6 +2,7 @@ import { Image } from "@fluentui/react-components"
 import { useRecordImage } from "../hooks/useRecordImage"
 import { usePcfContext } from "../services/PcfContext"
 import { iTagInfo } from "../services/PcfContextService"
+import * as React from 'react';
 
 const TagImage = ({id,name}:iTagInfo, key:string): JSX.Element => {
 

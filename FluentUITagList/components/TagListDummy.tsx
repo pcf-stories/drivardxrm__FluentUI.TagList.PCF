@@ -3,6 +3,7 @@ import { webLightTheme } from "@fluentui/react-components";
 import { iTagInfo } from '../services/PcfContextService';
 import { useStyles } from '../styles/Styles';
 import TagDummy from './TagDummy';
+import * as React from 'react';
 
 export interface ITagListDummyProps {
   appearance: 'filled' | 'ghost' | 'outline' | 'tint'
