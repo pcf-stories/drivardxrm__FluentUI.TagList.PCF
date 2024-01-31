@@ -9,7 +9,7 @@ type ThemeVars = Addon_Config<AddonStore["setConfig"]>["theme"];
 
 addons.setConfig({
   theme: {
-   // brandUrl: "",
+    brandUrl: "https://github.com/drivardxrm/FluentUI.TagList.PCF",
     brandImage: "./Shko Online 92x32.svg",
   } as ThemeVars,
   showRoots: false,
